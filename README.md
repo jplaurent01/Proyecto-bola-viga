@@ -64,7 +64,7 @@ $$
 
 Cabe señalar que la función de transferencia de la planta anterior es un doble integrador. Como tal, es marginalmente estable y presentará un problema de control desafiante.
 
-## 2. Espacio de Estados  
+## 2. Ecuaciones de Estados  
 
 El sistema linealizado también puede representarse en forma de espacio de estados. Para ello, seleccionamos la posición de la bola (\(r\)) y su velocidad (\(\dot{r}\)) como variables de estado, y el ángulo del engranaje (\(\theta\)) como entrada. La representación en espacio de estados se muestra a continuación:  
 
