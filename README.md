@@ -4,13 +4,13 @@
 
 Una bola se coloca sobre una viga, como se muestra en la figura a continuación, donde se le permite rodar con un grado de libertad a lo largo de la viga. Un brazo de palanca está unido a la viga en un extremo y a un engranaje servo en el otro. A medida que el engranaje servo gira un ángulo $\Theta$, el brazo de palanca cambia el ángulo de la viga en $\alpha$. Cuando el ángulo se desvía de la posición horizontal, la gravedad hace que la bola ruede a lo largo de la viga. Se diseñará un controlador para este sistema con el fin de manipular la posición de la bola.
 
-![Diagrama del sistema bola-viga](/Imagenes/bola_viga.png)
+![Diagrama del sistema bola-viga](./Imagenes/bola_viga.png)
 
 ### Parámetros del sistema 
 
 + (m) masa de la bola (PESAR BOLA kg)
-+ (R) radio de la bola (MEDIR RADIO m) 
-+ (d) desplazamiento del brazo de palanca (MEDIR en metros)
++ (R) radio de la bola 0.02 m 
++ (d) desplazamiento del brazo de palanca (MEDIR en metros) (Rueda de 0.04 m de radio)
 + (g) aceleración gravitacional 9.8 m/s²
 + (L) longitud de la viga 0.528 m (Preguntar si es L/2 por la ubicación de $\alpha$ al medio de la barra)
 + (J) momento de inercia de la bola ($I=\frac{2}{5} m R^2$) kg·m²
